@@ -1,0 +1,23 @@
+.pattern {
+  background-color: #ffffff;
+  opacity: 1;
+  background-image: radial-gradient(#eae1ff 1.05px, #ffffff 1.05px);
+  background-size: 21px 21px;
+  background-repeat: repeat;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.nuxt-link {
+  text-decoration: none;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.el {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08) !important;
+}

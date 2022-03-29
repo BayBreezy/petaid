@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "types": ["@nuxt/types", "@nuxtjs/vuetify"],
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "~~/*": ["./*"],
+      "@@/*": ["./*"]
+    }
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}
